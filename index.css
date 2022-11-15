@@ -1,0 +1,179 @@
+/* ------------------------------------ */
+/* Whole document */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+/* ------------------------------------ */
+/* Various sections */
+.headers {
+    padding-top: 0.5em;
+}
+/* ------------------------------------ */
+/* Landing */
+#landing {
+    background-image: url("./assets/background/richmond-skyline.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing h1, h4 {
+    font-weight: bold;
+}
+
+#landing button {
+    margin: 0.25em 1em;
+}
+/* ------------------------------------ */
+/* About */
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photoOfMe {
+    width: 100%;
+    max-width: 20em;
+    height: 100%;
+    max-height: 20em;
+    border-radius: 50%;
+}
+
+#profile h4, h6 {
+    margin: 0;
+}
+
+#profile p {
+    width: 70%;
+    text-align: left;
+}
+
+#skillsIKnow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 4em;
+    height: 4em;
+}
+
+#whatIKnow p {
+    margin-top: 0;
+}
+
+#whatImLearning p {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 992px) {
+    #profile, #whatIKnow, #whatImLearning {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #profile, #whatIKnow, #whatImLearning {
+        width: 100%;
+    }
+}
+/* ------------------------------------ */
+/* Portfolio */
+.projectHeaders {
+    margin-bottom: 0;
+}
+
+.projectDates {
+    margin: 0;
+}
+
+.projectDescriptions {
+    margin-top: 0;
+}
+
+.projectScreenShots {
+    width: 100%;
+    max-width: 50em;
+    height: auto;
+}
+
+#project1Tech, #project2Tech, #project3Tech {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#project1Tech p, #project2Tech p, #project3Tech p {
+    margin-top: 0;
+}
+
+.projectTechIcon {
+    width: 4em;
+    height: 4em;
+}
+/* ------------------------------------ */
+/* Contact */
+#contactResources {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.resource a {
+    text-decoration: none;
+}
+
+.resource p {
+    margin-top: 0;
+}
+
+.contactIcons {
+    width: 4em;
+    height: 4em;
+}
+
+#my-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#messageInput {
+    height: 20em;
+}
+
+#my-form-button {
+    margin-top: 0.5em;
+}
+/* ------------------------------------ */
+/* Footer */
+#endCredits p {
+    font-weight: bold;
+}
+
+#endCredits a {
+    text-decoration: none;
+}
+
+#endCredits a:hover {
+    color: blue;
+}
+
+#freepikContainer p {
+    margin-bottom: 0;
+}
+
+#freepikCredits {
+    display: flex;
+    flex-direction: column;
+}
+
+#freepikCredits a {
+    margin: 5px 0;
+}
