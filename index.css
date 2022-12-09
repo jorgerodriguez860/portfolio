@@ -39,7 +39,7 @@ body {
 }
 
 #photoOfMe {
-    width: 50%;
+    width: 20em;
     height: 20em;
     border-radius: 50%;
 }
@@ -71,15 +71,31 @@ body {
     margin-top: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1380px) {
     #profile, #whatIKnow, #whatImLearning {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #profile, #whatIKnow, #whatImLearning {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #knowCol1, #knowCol2, #knowCol3, #knowCol4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #knowCol1, #knowCol2, #knowCol3, #knowCol4 {
+        width: 100%;
+    }
+
+    #whatImLearning {
+        float: right;
     }
 }
 /* ------------------------------------ */
