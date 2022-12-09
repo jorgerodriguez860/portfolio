@@ -39,10 +39,8 @@ body {
 }
 
 #photoOfMe {
-    width: 100%;
-    max-width: 20em;
-    height: 100%;
-    max-height: 20em;
+    width: 50%;
+    height: 20em;
     border-radius: 50%;
 }
 
@@ -86,6 +84,10 @@ body {
 }
 /* ------------------------------------ */
 /* Portfolio */
+#project1, #project2 {
+    border-bottom: 1px solid black;
+}
+
 .projectHeaders {
     margin-bottom: 0;
 }
