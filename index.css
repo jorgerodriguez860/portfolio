@@ -58,6 +58,14 @@ body {
     justify-content: space-around;
 }
 
+#knowHalfCol1 {
+    padding-right: 0;
+}
+
+#knowHalfCol2 {
+    padding-left: 0;
+}
+
 .icon {
     width: 4em;
     height: 4em;
